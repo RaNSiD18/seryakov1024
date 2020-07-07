@@ -1,0 +1,48 @@
+{
+  "mstudents": [
+    {
+      "name": "Иван",
+      "surname": "Иванов",
+      "midname": "Иванович",
+      "phone": "89999999999",
+      "email": "asdjasgdhj@mail.ru",
+      "Bday": "13.12.1999",
+      "Group": "111-111",
+      "DoP": "Manager",
+      "id": 1
+    },
+    {
+      "name": "Алексей",
+      "surname": "Серяков",
+      "midname": "Валерьевич",
+      "phone": "89671586048",
+      "email": "alex.seryakov.2000@gmail.com",
+      "Bday": "13.12.1999",
+      "Group": "111-111",
+      "DoP": "Manager",
+      "id": 2
+    },
+    {
+      "name": "Алексей",
+      "surname": "Серяков",
+      "midname": "Валерьевич",
+      "phone": "89671586048",
+      "email": "alex.seryakov.2000@gmail.com",
+      "Bday": "24.11.2020",
+      "Group": "111-111",
+      "DoP": "Manager",
+      "id": 3
+    },
+    {
+      "name": "Алексей",
+      "surname": "Серяков",
+      "midname": "Валерьевич",
+      "phone": "89671586048",
+      "email": "alex.seryakov.2000@gmail.com",
+      "Bday": "13.12.1999",
+      "Group": "111-111",
+      "DoP": "SPAR",
+      "id": 4
+    }
+  ]
+}
