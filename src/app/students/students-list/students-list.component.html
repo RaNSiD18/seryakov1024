@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Отсчество</th>
+            <th scope="col">Телефон</th>
+            <th scope="col">Email</th>
+            <th scope="col">Дата рождения</th>
+            <th scope="col">Группа</th>
+            <th scope="col">Направление подготовки</th>
+            <th scope="col" class="text-right">
+                <button class="btn btn-primary" (click)="onAddProfile()">
+                    Добавить пользователя
+                </button>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <th scope="row">{{student.id}}</th>
+            <td>{{student.name}}</td>
+            <td>{{student.surname}}</td>
+            <td>{{student.midname}}</td>
+            <td>{{student.phone}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.Bday}}</td>
+            <td>{{student.Group}}</td>
+            <td>{{student.DoP}}</td>
+            <td class="text-right">
+                <button class="btn btn-primary" (click)="onLinkProfile(student.id)">
+                    Редактировать
+                </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
